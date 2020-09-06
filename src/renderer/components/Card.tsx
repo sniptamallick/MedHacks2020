@@ -56,13 +56,10 @@ const Card = (props: ICardProps) => {
                     <DropdownItem name="Delete" icon="delete" action={onDelete} />
                     </Dropdown>
 
-                <div hidden={!(props.card.time && props.card.time > 0)}>{`Time to complete task: ${props.card.time} mins`}</div>
+                <div hidden={!(props.card.time && props.card.time > 0)}></div>
 
                 <TimerSimple timerEnabled={false} minutes={props.card.time}></TimerSimple>
                 {props.children || null}
-                <Button name="Audio" icon="volume_up" action={playAudio} />
-                <Button name="Edit" icon="edit" action={toggleEditor} />
-                <Button name="Delete" icon="delete" action={onDelete} />
             </CardView>
 
             <Modal show={showEditor} onClickOutside={toggleEditor}>

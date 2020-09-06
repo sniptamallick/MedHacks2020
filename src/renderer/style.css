@@ -31,7 +31,7 @@
     --sidebar-highlight-color: #e6e6e6;
     --sidebar-text-color: #333333;
 
-    --background-color: #f6d7dc;
+    --background-color: #98d5b3;
     --background-text-color: black;
     
     --surface-color: white;
@@ -264,10 +264,11 @@ code {
 }
 
 label {
-    font-size: 0.9rem;
+    font-size: 15px;
     font-weight: bold;
     margin: 5px 0;
     opacity: 0.5;
+    color: black; 
 }
 
 hr { 

@@ -94,13 +94,7 @@ const CardEditor = (props: ICardEditorProps) => {
                     <Button name="Done" icon="close" action={cancel} />
                 </section>
             </section>
-
-            <section className="col">
-                <label>Preview</label>
-                <CardView front={front} time={parseInt(minutes)}>
-                <div hidden={!(minutes && parseInt(minutes) > 0)}>{`Time to complete task: ${minutes} mins`}</div>
-                </CardView>
-            </section>
+            
         </section>
     );
 }
