@@ -1,5 +1,12 @@
 # ByteBuddy
 
+ByteBuddy is the perfect buddy for your elderly friend who needs help remembering to turn off their stove, take their medication, and more! 
+
+
+<p align="center">
+    <img src="landing.png"/>
+     <img src="app.png"/>
+</p>
 
 ## :pushpin: Features
 
