@@ -89,7 +89,7 @@ const Review = () => {
     return (
         <main className="col col-center space-between">
             <section>
-                <label>{(index.current)} / {cards.current.length-1}</label>
+                <label>{(index.current + 1)} / {cards.current.length}</label>
             </section>
 
             <Card

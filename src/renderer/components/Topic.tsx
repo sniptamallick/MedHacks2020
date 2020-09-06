@@ -57,6 +57,7 @@ const Topic = (props: ITopicProps) => {
             <section className="row row-center col-center wrap space-fixed">
                 
                 {hasCards && <ButtonLink name="Start Task" icon="flag" to={`/review/${props.topic.id}`} />}
+                
             </section>
 
             {showCardEditor && <CardEditor topicId={props.topic.id} onSave={updateCards} onCancel={toggleCardEditor} />}
