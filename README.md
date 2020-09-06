@@ -19,8 +19,8 @@ ByteBuddy is the perfect buddy for your elderly friend who needs help rememberin
 Install [Node.js](https://nodejs.org/en/). Open up a terminal and clone the project with [Git](https://git-scm.com/), `cd` into the project root folder and install all dependencies:
 
 ```
-git clone https://github.com/hikikones/Lazycard.git
-cd Lazycard
+git clone https://github.com/sniptamallick/MedHacks2020.git
+cd MedHacks2020
 npm install
 ```
 
