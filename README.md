@@ -3,6 +3,10 @@
 
 ## :pushpin: Features
 
+* Create simple routines for daily life skills
+* Add timers for tasks related to cooking and clearning
+* Easy to read interface with audio support for elderly people
+
 ## :scroll: Install
 
 Install [Node.js](https://nodejs.org/en/). Open up a terminal and clone the project with [Git](https://git-scm.com/), `cd` into the project root folder and install all dependencies:
