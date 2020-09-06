@@ -4,7 +4,7 @@ ByteBuddy is the perfect buddy for your elderly friend who needs help rememberin
 
 
 <p align="center">
-     <img src="landing.png"/>
+     <img src="thelanding.png"/>
      <img src="app.png"/>
 </p>
 
