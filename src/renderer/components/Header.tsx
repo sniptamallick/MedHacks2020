@@ -23,7 +23,7 @@ const Header = () => {
             <div className="titlebar-resize"></div>
             <div className="titlebar-logo row col-center">
                 <img src={`${cfg.getStaticDir()}/icon.png`} />
-                <label>Lazycard</label>
+                <label>ByteBuddy</label>
             </div>
             <div className="titlebar-buttons row">
                 <Button icon="remove" action={remote.getCurrentWindow().minimize} className="titlebar" />

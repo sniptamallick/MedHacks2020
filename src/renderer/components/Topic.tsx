@@ -54,6 +54,7 @@ const Topic = (props: ITopicProps) => {
         <div className={hasCards ? "col col-center" : "col col-center full-height"}>
             <EditableTitle title={props.topic.name} onSubmit={onNameChange} />
 
+
             <section className="row row-center col-center wrap space-fixed">
                 
                 {hasCards && <ButtonLink name="Start Task" icon="flag" to={`/review/${props.topic.id}`} />}
@@ -65,6 +66,7 @@ const Topic = (props: ITopicProps) => {
             {hasCards}
             {showCardEditor || <Button name="Add Step" icon="add" action={toggleCardEditor} />}
             <Cards cards={cards} onCardChange={updateCards} />
+            <Button name="Delete" icon="delete" action={onDelete} />
         </div>
     );
 }
